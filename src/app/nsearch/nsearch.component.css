@@ -1,3 +1,16 @@
 .form-control {
-    box-shadow: 0 10px 40px 0 #B0C1D9;
+    box-shadow: 0 10px 40px 0 #71a6f0;
   }
+ .text-center{
+  background-color: mistyrose;
+  color: brown;
+  font-weight: bold;
+  border: black;
+  border-width: 20px;
+  box-shadow: 0 10px 40px 0 mistyrose;
+
+ }
+ .container{
+  background-color: white;
+ 
+ }

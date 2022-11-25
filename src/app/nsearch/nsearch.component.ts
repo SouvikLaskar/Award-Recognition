@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Call } from '@angular/compiler';
+import { Component, Input, ViewChild } from '@angular/core';
+
 
 @Component({
   selector: 'app-nsearch',
@@ -8,16 +10,19 @@ import { Component } from '@angular/core';
 export class NsearchComponent {
   searchText: any;
   Names = [
-    { id: 815, name: 'Souvik', country: 'India' },
-    { id: 12, name: 'Narco' , country: 'USA'},
-    { id: 13, name: 'Bombasto' , country: 'UK'},
-    { id: 14, name: 'Celeritas' , country: 'Canada' },
-    { id: 15, name: 'Magneta' , country: 'Russia'},
-    { id: 16, name: 'RubberMan' , country: 'China'},
-    { id: 17, name: 'Dynama' , country: 'Germany'},
-    { id: 18, name: 'Dr IQ' , country: 'Hong Kong'},
-    { id: 19, name: 'Magma' , country: 'South Africa'},
-    { id: 20, name: 'Tornado' , country: 'Sri Lanka'}
+    { id: 'GSI GI 815', name: 'Souvik', country: 'India'},
+    { id: 'GSI GR 816', name: 'Siddhesh' , country: 'USA'},
+    { id: 'GSI GI 215', name: 'Rohan' , country: 'UK'},
+    { id: 'GSI GM 519', name: 'Vikash' , country: 'Canada' },
+    { id: 'GSI GS 810', name: 'Sumukh' , country: 'India'},
+    { id: 'GSI GJ 205', name: 'Tanmay' , country: 'China'},
+    { id: 'GSI GI 852', name: 'Sayan' , country: 'Germany'},
+    { id: 'GSI GG 258', name: 'Amit' , country: 'Hong Kong'},
+    { id: 'GSI GL 789', name: 'Sourav' , country: 'India'},
+    { id: 'GSI GK 965', name: 'Abhinav' , country: 'Sri Lanka'}
   ];
 
+  onClick(){
+    
+  }
 }
