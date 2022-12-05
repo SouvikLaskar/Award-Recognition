@@ -1,16 +1,26 @@
-.form-control {
-    box-shadow: 0 10px 40px 0 #71a6f0;
+
+  .form-control1 {
+    box-shadow: 0 10px 40px 0 #71f0aa;
+    width:200px;
+    padding: 12px 20px;
+    margin: 5px 0;
+  
+    border: 1px solid #ccc;
+    border-radius: 4px;
+       
   }
+  level{
+    font-weight: bold;
+  }
+
  .text-center{
   background-color: mistyrose;
+  border-style: double;
+  border-radius: 10px;
+  padding: 5px;
   color: brown;
   font-weight: bold;
-  border: black;
-  border-width: 20px;
   box-shadow: 0 10px 40px 0 mistyrose;
 
  }
- .container{
-  background-color: white;
  
- }

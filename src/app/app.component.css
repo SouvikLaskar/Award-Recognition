@@ -1,3 +1,6 @@
 .myclass{
     background-color: lightgrey
 }
+.form-control {
+    box-shadow: 0 10px 40px 0 #71a6f0;
+  }

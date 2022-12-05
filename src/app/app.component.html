@@ -19,6 +19,51 @@
   </div>
 </nav>
 
-<app-nsearch></app-nsearch>
-</div>
+
+  <div class="container">
+    <!-- <h4>Search </h4> -->
+    <form>
+      <div class="form-group">
+        <app-nsearch (dataAdded)="onDataAdded($event)"></app-nsearch>
+        <ul class="list-group">
+          <a class="list-group-item" style="cursor: pointer" *ngFor="let i of Data">
+          {{i.name}} ({{i.id}})
+          </a>
+      </ul>
+        <!-- <label for="title">ID / Name :</label>
+        <input type="text" class="form-control" id="title" name="title" aria-describedby="emailHelp" [(ngModel)]="searchText" autocomplete="off"> 
+      <br>
+      
+      <table class="table">
+        <thead>
+        <tr>
+          <th>GEM-Id</th>
+          <th>Name</th>
+          <th>Country</th>
+          <th>DOJ</th>
+          <th>Image</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let name of Data | filter:searchText">
+                <td>{{name.id}}</td>
+                <td>{{name.name}}</td>
+                <td>{{name.country}}</td>
+                <td>{{name.doj}}</td>
+                <td><img [src]="name.img" class="img-responsive" style="width: 40px;height: 40px;"></td>
+              </tr>
+        </tbody>
+      </table> -->
+      </div>
+      
+      <button type="submit" class="btn btn-sm btn-primary" onClick="onclick()" >Search</button>
+          
+    <h4>Result:</h4>
+    <div>No result</div>
+      </form>
+    </div>
+
+  </div>
+      
+ 
 
