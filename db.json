@@ -1,0 +1,69 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "Details": [
+    {
+      "id": 1,
+      "gid": "GSI GI 815",
+      "name": "Souvik",
+      "country": "India",
+      "doj": "14-10-2022",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg"
+    },
+    {
+      "id": 2,
+      "gid": "GSI GR 816",
+      "name": "Siddhesh",
+      "country": "USA",
+      "doj": "05-18-2022",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg"
+    },
+    {
+      "id": 3,
+      "gid": "GSI GI 215",
+      "name": "Rohan",
+      "country": "UK",
+      "doj": "03-11-2021",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg"
+    },
+    {
+      "id": 4,
+      "gid": "GSI GM 519",
+      "name": "Vikash",
+      "country": "Canada",
+      "doj": "11-02-2022",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg"
+    },
+    {
+      "gid": "GSI GI 500",
+      "name": "Samrat",
+      "country": "Brazil",
+      "doj": "05-02-2004",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg",
+      "id": 5
+    },
+    {
+      "gid": "GSI GI 111",
+      "name": "ANJALI",
+      "country": "CHINA",
+      "doj": "12-02-2000",
+      "img": "",
+      "id": 7
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
