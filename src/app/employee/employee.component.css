@@ -1,0 +1,19 @@
+
+img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+table {
+  width: 90%;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+
+  border: 3px solid rgba(253, 65, 65, 0.2);
+  border-radius: 10px;
+  padding: 0px 2rem;
+}

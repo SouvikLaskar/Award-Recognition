@@ -1,68 +1,75 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "Details": [
-    {
-      "id": 1,
-      "gid": "GSI GI 815",
-      "name": "Souvik",
-      "country": "India",
-      "doj": "14-10-2022",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg"
+      "firstname": "Rohit",
+      "lastname": "Sharma",
+      "birthdate": "2022-01-12",
+      "gender": "m",
+      "education": "post graduate",
+      "company": "Google",
+      "jobExperience": 20,
+      "salary": 50,
+      "profile": "",
+      "id": 1
     },
     {
-      "id": 2,
-      "gid": "GSI GR 816",
-      "name": "Siddhesh",
-      "country": "USA",
-      "doj": "05-18-2022",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg"
-    },
-    {
-      "id": 3,
-      "gid": "GSI GI 215",
-      "name": "Rohan",
-      "country": "UK",
-      "doj": "03-11-2021",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg"
-    },
-    {
-      "id": 4,
-      "gid": "GSI GM 519",
-      "name": "Vikash",
-      "country": "Canada",
-      "doj": "11-02-2022",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg"
-    },
-    {
-      "gid": "GSI GI 500",
-      "name": "Samrat",
-      "country": "Brazil",
-      "doj": "05-02-2004",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg",
+      "firstname": "Siddhesh",
+      "lastname": "Pansaree",
+      "birthdate": "2014-07-18",
+      "gender": "f",
+      "education": "diploma",
+      "company": "TCS",
+      "jobExperience": 3,
+      "salary": 10,
+      "profile": "",
       "id": 5
     },
     {
-      "gid": "GSI GI 111",
-      "name": "ANJALI",
-      "country": "CHINA",
-      "doj": "12-02-2000",
-      "img": "",
-      "id": 7
+      "firstname": "Tanmay ",
+      "lastname": "Gupta",
+      "birthdate": "2007-07-06",
+      "gender": "m",
+      "education": "graduate",
+      "company": "Tudip",
+      "jobExperience": 4.5,
+      "salary": 9.5,
+      "profile": "",
+      "id": 6
+    },
+    {
+      "firstname": "Souvik",
+      "lastname": "Laskar",
+      "birthdate": "1995-11-24",
+      "gender": "m",
+      "education": "post graduate",
+      "jobExperience": 3,
+      "lastPromotion": "2022-12-03",
+      "gid": "GSM GI 520",
+      "doj": "2022-12-01",
+      "jobDesignation": "SDE L1",
+      "awardsReceived": 1,
+      "awardName": "abc",
+      "awarddate": "2022-12-03",
+      "id": 11
+    },
+    {
+      "firstname": "Rohan",
+      "lastname": "Sharma",
+      "birthdate": "1990-08-30",
+      "gender": "f",
+      "education": "post graduate",
+      "jobExperience": 12,
+      "lastPromotion": "2022-05-18",
+      "gid": "GSM GI 801",
+      "doj": "2021-03-11",
+      "jobDesignation": "SDE L1",
+      "awardsReceived": 2,
+      "awardName": "Spot Award",
+      "awarddate": "2022-09-03",
+      "id": 12
     }
   ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }
